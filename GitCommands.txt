@@ -1,0 +1,2 @@
+new URL - git remote add origin URL
+new branch - git checkout -b <nombreBranchNueva>
