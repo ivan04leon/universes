@@ -11,17 +11,17 @@
   <title>uniVerses | Home</title>
 
   <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="css/all.min.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.css" rel="stylesheet">
+  <link href="css/creative.min.css" rel="stylesheet">
 
 </head>
 
@@ -126,8 +126,8 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/A.jpg"> <!--.../fullsize/1.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/A.jpg" alt=""> <!--.../thumbnails/1.jpg-->
+          <a class="portfolio-box" href="images/fullsize/A.jpg"> <!--.../fullsize/1.jpg-->
+            <img class="img-fluid" src="images/thumbnails/A.jpg" alt=""> <!--.../thumbnails/1.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -139,8 +139,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/C.jpg"> <!--.../2.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/C.jpg" alt=""> <!--.../2.jpg-->
+          <a class="portfolio-box" href="images/fullsize/C.jpg"> <!--.../2.jpg-->
+            <img class="img-fluid" src="images/thumbnails/C.jpg" alt=""> <!--.../2.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -152,8 +152,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/E.jpg"> <!--.../3.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/E.jpg" alt=""> <!--.../3.jpg-->
+          <a class="portfolio-box" href="images/fullsize/E.jpg"> <!--.../3.jpg-->
+            <img class="img-fluid" src="images/thumbnails/E.jpg" alt=""> <!--.../3.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -165,8 +165,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/D.jpg"> <!--.../4.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/D.jpg" alt=""> <!--.../4.jpg-->
+          <a class="portfolio-box" href="images/fullsize/D.jpg"> <!--.../4.jpg-->
+            <img class="img-fluid" src="images/thumbnails/D.jpg" alt=""> <!--.../4.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -178,8 +178,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/G.jpg"> <!--.../5.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/G.jpg" alt=""> <!--.../5.jpg-->
+          <a class="portfolio-box" href="images/fullsize/G.jpg"> <!--.../5.jpg-->
+            <img class="img-fluid" src="images/thumbnails/G.jpg" alt=""> <!--.../5.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -191,8 +191,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/F.jpg"> <!--.../6.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/F.jpg" alt=""> <!--.../6.jpg-->
+          <a class="portfolio-box" href="images/fullsize/F.jpg"> <!--.../6.jpg-->
+            <img class="img-fluid" src="images/thumbnails/F.jpg" alt=""> <!--.../6.jpg-->
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Category
@@ -247,12 +247,12 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>

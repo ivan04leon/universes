@@ -1,2 +1,9 @@
-new URL - git remote add origin URL
+new URL - git remote add origin <URL>
 new branch - git checkout -b <nombreBranchNueva>
+Cambiar branch - git checkout <nombreBranchExistente>
+Revisar status - git status
+añadir - git add (-A añade todo) (nombre.extension añade solo el archivo)
+commit - git commit -m "Mensaje" 
+subir - git push origin <nombreBranch>
+descargar - git pull origin <nombreBranch>
+git config --get remote.origin.url
