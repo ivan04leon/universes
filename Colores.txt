@@ -1,0 +1,7 @@
+#2D62CC Azul oscuro
+#888A8F plata
+#387AFF azul claro
+
+Azul: tranquilidad, seguridad, confianza, sanidad, lealtad
+Dorado: riqueza, sabiduría, prosperidad, tradicionalismo, valor
+Plata: glamour, tecnología, gracia, elegancia
