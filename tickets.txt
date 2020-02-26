@@ -8,3 +8,5 @@ DB hibernate or JDBC
 DB mySQL completa
 Conectar Servlet
 Hacer modelos y servlets 
+
+LOGIN, new user, welcome-Chat -> profile, Profile - Edit 
