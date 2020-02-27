@@ -1,3 +1,11 @@
 h2{
     color:red;
 }
+.LeftLine{
+    width: 50%;
+    float: left;
+}
+.RightLine{
+    width: 50%;
+    float: right;
+}
