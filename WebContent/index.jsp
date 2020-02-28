@@ -72,6 +72,10 @@
   <!-- About Section -->
   <section class="page-section bg-primary" id="about">
     <div class="container">
+    <div class="row">
+    <button onclick="cargarElementos()">cargar</button>
+    <ul id="elementos"></ul>
+    </div>
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">Bringing the world together in every conversation!</h2>
@@ -256,7 +260,49 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+	<script type="text/javascript">
+	function cargarElementos(){
+		var request = new XMLHttpRequest();
+		request.onreadystatechange=procesarRespuesta;
+		<!-- Configurar peticion -->
+		var url= "http://localhost:8888/user";
+		request.open("GET", url, true);
+		request.send();
+		
+	}
+	function procesarRespuesta(){
+		if(this.readyState == 4 && this.status==200){
+			var respuesta = this.responseText;
+			console.log(respuesta);
+			<!-- Deserializar -->
+			var listaObjetos = JSON.parse(respuesta);
+			crearLista(listaObjetos);
+		}
+		
+	}
 
+	function crearLista(lista){
+		var listaElement = document.getElementById("elementos")
+		for (let item of lista){
+			<!-- Crear elemento -->
+			
+			let itemElement= document.createElement("li");
+			itemElement.innerTest=item.firstName;
+			<!-- Crearlo en el documento -->
+			listaElement.appendChild(itemElement);
+			
+	
+		
+		}
+		
+		
+		
+}
+	</script>
 </body>
 
+
 </html>
+
+
+</script>
