@@ -5,3 +5,6 @@
 Azul: tranquilidad, seguridad, confianza, sanidad, lealtad
 Dorado: riqueza, sabiduría, prosperidad, tradicionalismo, valor
 Plata: glamour, tecnología, gracia, elegancia
+
+
+row align-items-center remember
