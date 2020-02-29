@@ -48,6 +48,14 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact us!</a>
           </li>
+   
+          <li><a class="nav-link js-scroll-trigger" href="">Account</a>
+            <ul>
+              <li><a href="">Registrarse</a></li>
+              <li><a href="">Iniciar Sesion</a></li>
+            </ul>  
+          </li>
+          
         </ul>
       </div>
     </div>
@@ -131,7 +139,8 @@
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/A.jpg"> <!--.../fullsize/1.jpg-->
-            <img class="img-fluid" src="images/thumbnails/A.jpg" alt=""> <!--.../thumbnails/1.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/A.jpg" alt=""> <!--.../thumbnails/1.jpg-->
+            
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -144,7 +153,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/C.jpg"> <!--.../2.jpg-->
-            <img class="img-fluid" src="images/thumbnails/C.jpg" alt=""> <!--.../2.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/C.jpg" alt=""> <!--.../2.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -157,7 +166,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/E.jpg"> <!--.../3.jpg-->
-            <img class="img-fluid" src="images/thumbnails/E.jpg" alt=""> <!--.../3.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/E.jpg" alt=""> <!--.../3.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -170,7 +179,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/D.jpg"> <!--.../4.jpg-->
-            <img class="img-fluid" src="images/thumbnails/D.jpg" alt=""> <!--.../4.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/D.jpg" alt=""> <!--.../4.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -183,7 +192,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/G.jpg"> <!--.../5.jpg-->
-            <img class="img-fluid" src="images/thumbnails/G.jpg" alt=""> <!--.../5.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/G.jpg" alt=""> <!--.../5.jpg-->
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -196,7 +205,7 @@
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="images/fullsize/F.jpg"> <!--.../6.jpg-->
-            <img class="img-fluid" src="images/thumbnails/F.jpg" alt=""> <!--.../6.jpg-->
+            <img class="img-fluid" src="images/portfolio/thumbnails/F.jpg" alt=""> <!--.../6.jpg-->
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Category
@@ -250,9 +259,9 @@
     </div>
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
+  <!-- Bootstrap core JavaScript, se edito la linea 256, no estoy segura si es bundle2 :/ -->
   <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle2.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="js/jquery.easing.min.js"></script>
@@ -305,4 +314,4 @@
 </html>
 
 
-</script>
+
