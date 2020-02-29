@@ -21,9 +21,9 @@
 		<property name="hibernate.connection.username">
 			root
 		</property>
-
+		<!-- if you don't have a password, don´t change-->
 		<property name="hibernate.connection.password">
-			
+		
 		</property>
 
 	</session-factory>
