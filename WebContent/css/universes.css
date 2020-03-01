@@ -1,0 +1,25 @@
+html, body{
+    background: rgb(2,0,36);
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,141,170,1) 75%);
+
+    
+    color: rgb(224, 224, 224);
+}
+/*html, body{
+    background-image: url('../img/wallpaperLogin.jpg');
+    background-size: cover;
+background-repeat: no-repeat;
+    color:rgb(224, 224, 224);
+} */
+.card,.list-group-item{
+    background-color: rgba(224, 224, 224, 0.2);
+    color: rgb(255, 255, 255);
+}
+.card{
+    color: rgb(224, 224, 224);
+}
+.img-brand{
+    width: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+}
