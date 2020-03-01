@@ -30,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">uniVerses</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.jsp"><img width=100 height=100 class="img-brand" src="img/portfolio/thumbnails/universes.png"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,7 +46,7 @@
             <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact us!</a>
+            <a class="nav-link js-scroll-trigger" href="signUp.jsp">Sign Up</a>
           </li>
         </ul>
       </div>
