@@ -51,8 +51,8 @@
    
           <li><a class="nav-link js-scroll-trigger" href="">Account</a>
             <ul>
-              <li><a href="">Registrarse</a></li>
-              <li><a href="">Iniciar Sesion</a></li>
+              <li><a href="signUp.jsp">Registrarse</a></li>
+              <li><a href="signIn.jsp">Iniciar Sesion</a></li>
             </ul>  
           </li>
           
