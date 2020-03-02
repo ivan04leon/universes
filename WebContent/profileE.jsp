@@ -22,7 +22,7 @@
                   <a class="nav-link" href="index.jsp">Home </a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="">Profile<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="profile.jsp">Profile<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="chat.html">Chat</a>
