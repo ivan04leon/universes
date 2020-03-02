@@ -1,12 +1,8 @@
-
-<!------ Include the above in your HEAD tag ---------->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" >
+
 	<title>Sign in | uniVerses</title>
    <!--Made with love by Mutiullah Samim -->
    
@@ -37,17 +33,17 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="username">
+						<input type="text" class="form-control" placeholder="Username">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password">
+						<input type="password" class="form-control" placeholder="Password">
 					</div>
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
+					<div class="Remember">
+						<input type="checkbox" class="checkbox">Remember Me
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Login" class="btn float-right login_btn">
@@ -55,15 +51,18 @@
 				</form>
 			</div>
 			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="signup.html">Sign Up</a>
+				<div class="NewAccount">
+					Don't you have an account? <a href="signUp.jsp">Sign Up</a>
 				</div>
 				<div class="d-flex justify-content-center">
 					<a href="#">Forgot your password?</a>
+					<br>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

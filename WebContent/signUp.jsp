@@ -1,12 +1,7 @@
-
-<!------ Include the above in your HEAD tag ---------->
-
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<title>Sign up | uniVerses</title>
    <!--Made with love by Mutiullah Samim -->
    
@@ -37,7 +32,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="email">
+						<input type="text" class="form-control" placeholder="Email">
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -59,19 +54,21 @@
 						
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+						<input type="submit" value="Sign Up" class="btn float-right login_btn">
 					</div>
 				</form>
 			</div>
 			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					Do you have an account?<a href="signin.html">Sign In</a>
+				<div class="NewAccount">
+					Do you have an account? <a href="signIn.jsp">Sign In</a>
 				</div>
 
 			</div>
 		</div>
 	</div>
 </div>
-
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
