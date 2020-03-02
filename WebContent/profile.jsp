@@ -49,11 +49,10 @@
               </div>
         </div>
 
-        <div class="col-auto col-lg-4"><h2>Known languages</h2>
+        <div class="col-auto col-lg-4"><h2>Main language</h2>
             <ul class="list-group">
-                <li class="list-group-item">Native language</li>
-                <li class="list-group-item">Language 2</li>
-                <li class="list-group-item">Language 3</li>
+                <li class="list-group-item">Main language</li>
+
             </ul>
             <h2>Languages to practice</h2>
             <ul class="list-group">
@@ -77,6 +76,8 @@
             <br><div class="row justify-content-center"><a href="profileE.jsp" class="btn btn-outline-warning">Edit profile</a></div>
         </div>
     </div>
+    </div>
+    
 
 
     

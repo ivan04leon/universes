@@ -65,10 +65,10 @@
 
             <div class="col-8 col-lg-4">
             <form>
-            <h2>Known languages</h2>
+            <h2>Main language</h2>
                 <div class="list-group-item">
                     <select class="form-control">
-                        <option>Native language</option>
+                        <option>Main language</option>
                         <option>English</option>
                         <option value="spanish">Español</option>
                         <option value="french">Français</option>
@@ -79,33 +79,7 @@
                         <option value="portuguese">Portuguese</option>
                     </select>
                 </div>
-                <div class="list-group-item">
-                    <select class="form-control">
-                        <option value="void">Language 2</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Español</option>
-                        <option value="french">Français</option>
-                        <option value="italian">Italiano</option>
-                        <option value="japanese">Japanese</option>
-                        <option value="chinese">Chinese</option>
-                        <option value="korean">Korean</option>
-                        <option value="portuguese">Portuguese</option>
-                    </select>
-                </div>
-                <div class="list-group-item">
-                    <select class="form-control">
-                        <option value="void">Language 3</option>
-                        <option value="english">English</option>
-                        <option value="spanish">Español</option>
-                        <option value="french">Français</option>
-                        <option value="italian">Italiano</option>
-                        <option value="japanese">Japanese</option>
-                        <option value="chinese">Chinese</option>
-                        <option value="korean">Korean</option>
-                        <option value="portuguese">Portuguese</option>
-                    </select>
-                </div>
-            
+                          
             <h2>Languages to practice</h2>
                 <div class="list-group-item">
                     <select class="form-control">
