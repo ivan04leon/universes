@@ -116,3 +116,7 @@ input.checkbox{
     width: 20px; 
     height: 20px; 
 }
+img{
+    height: 80px;
+    width:150px;
+}
