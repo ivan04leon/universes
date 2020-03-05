@@ -25,7 +25,7 @@
                   <a class="nav-link" href="profile.jsp">Profile<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="chat.html">Chat</a>
+                  <a class="nav-link " href="chat.php">Chat</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">

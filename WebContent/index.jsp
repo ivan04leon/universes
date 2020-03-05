@@ -21,6 +21,7 @@
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
+  <link href="css/universes.css" rel="stylesheet">
 
 </head>
 
@@ -43,9 +44,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#services">What makes us unique?</a>
           </li>
-          <li class="nav-item">
+         <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact us!</a>
           </li>
@@ -71,7 +72,7 @@
   </header>
 
   <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+  <section class="page-section bg-secondary" id="about">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
@@ -94,41 +95,41 @@
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
             <h3 class="h4 mb-2">Secure</h3>
-            <p class="text-muted mb-0">With all the filters (age, gender, interests, location, verified, etc.) and tools (favorite, block, report, ...) you need to make your matches nice and safe.</p>
+            <p class="text mb-0">With all the filters (age, gender, interests, location, verified, etc.) and tools (favorite, block, report, ...) you need to make your matches nice and safe.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
             <h3 class="h4 mb-2">Portable</h3>
-            <p class="text-muted mb-0">Login using your favorite browser in any computer, tablet or phone. Forget about installing/updating (boring!) additional apps consuming your device memory!</p>
+            <p class="text mb-0">Login using your favorite browser in any computer, tablet or phone. Forget about installing/updating (boring!) additional apps consuming your device memory!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
             <h3 class="h4 mb-2">Worldwide</h3>
-            <p class="text-muted mb-0">Connect with people all around the world, no matter where you are! All you need is an account and internet access. So, don't forget to turn on your WiFi or mobile data!</p>
+            <p class="text mb-0">Connect with people all around the world, no matter where you are! All you need is an account and internet access. So, don't forget to turn on your WiFi or mobile data!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
             <h3 class="h4 mb-2">Kindly</h3>
-            <p class="text-muted mb-0">We are a community of developers seeking to turn the world into a more friendly and united place. That's why our services are (and will continue being) free.</p>
+            <p class="text mb-0">We are a community of developers seeking to turn the world into a more friendly and united place. That's why our services are (and will continue being) free.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
+  <!-- Portfolio Section 
   <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/A.jpg"> <!--.../fullsize/1.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/A.jpg" alt=""> <!--.../thumbnails/1.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/A.jpg"> 
+            <img class="img-fluid" src="img/portfolio/thumbnails/A.jpg" alt=""> 
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -140,8 +141,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/C.jpg"> <!--.../2.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/C.jpg" alt=""> <!--.../2.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/C.jpg"> 
+            <img class="img-fluid" src="img/portfolio/thumbnails/C.jpg" alt=""> 
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -153,8 +154,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/E.jpg"> <!--.../3.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/E.jpg" alt=""> <!--.../3.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/E.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/E.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -166,8 +167,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/D.jpg"> <!--.../4.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/D.jpg" alt=""> <!--.../4.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/D.jpg"> 
+            <img class="img-fluid" src="img/portfolio/thumbnails/D.jpg" alt=""> 
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -179,8 +180,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/G.jpg"> <!--.../5.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/G.jpg" alt=""> <!--.../5.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/G.jpg"> 
+            <img class="img-fluid" src="img/portfolio/thumbnails/G.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -192,8 +193,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/F.jpg"> <!--.../6.jpg-->
-            <img class="img-fluid" src="img/portfolio/thumbnails/F.jpg" alt=""> <!--.../6.jpg-->
+          <a class="portfolio-box" href="img/portfolio/fullsize/F.jpg"> 
+            <img class="img-fluid" src="img/portfolio/thumbnails/F.jpg" alt=""> 
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Category
@@ -206,15 +207,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <!-- Call to Action Section -->
+  <!-- Call to Action Section 
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">What Are You Waiting For?</h2>
-      <a class="btn btn-light btn-xl" href="#about">Join Us Now!</a> <!--https://startbootstrap.com/themes/creative/-->
+      <a class="btn btn-light btn-xl" href="#about">Join Us Now!</a> <!--https://startbootstrap.com/themes/creative/
     </div>
-  </section>
+  </section>-->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
